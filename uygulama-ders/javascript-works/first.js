@@ -49,7 +49,6 @@ console.log(str1);
 
 let str2 = myStory.slice(15, myStory.length); 
 console.log(str2);
-
 // 6- Son 5 karakteri yazdırın. ( 2 farklı yöntem kullanarak)
 
 let last51 = myStory.substring(myStory.length - 5);
@@ -57,7 +56,6 @@ console.log(last51);
 
 let last52 = myStory.slice(-5);
 console.log(last52);
-
 // 7- 11. karakterden sonra gelen 10 karakteri yazdırın.
 
 let newd = myStory.substring(11, 21);
