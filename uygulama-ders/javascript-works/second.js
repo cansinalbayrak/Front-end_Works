@@ -252,13 +252,13 @@ console.log(myArray.length);
 
 // 4- dizinin sonuna bir hayvan ismi ekleyin. yeni uzunluk bilgisini bir değişkene atayın(.length kullanmadan), konsola yazdırın.
 
-myArray.push("kedi");
+let newLength = myArray.push("kedi"); //uzunluk dönüyor
 console.log(myArray.indexOf("kedi")+1);
 
 
 // 5- dizinin başına bir hayvan ekleyin. yeni uzunluk bilgisini bir değişkene atayın(.length kullanmadan), konsola yazdırın.
 
-myArray.unshift("köpek");
+myArray.unshift("köpek"); //silinen elemanı dönüyor
 console.log(myArray.indexOf("kedi")+1);
 
 // 6- dizinin sonundaki elemanı silin. silinen elemanı bir değişkene atayın, konsola yazdırın.
@@ -269,13 +269,12 @@ console.log("Silinen ", deleted );
 
 // 7- dizinin ilk elemanını silin. silinen elemanı bir değişkene atayın, konsola yazdırın.
 
-
 let deletedFirst = myArray.shift();
 console.log("Silinen ", deletedFirst );
 
 // 8- silmiş olduğunuz elemanları ve uzunluk bilgilerini newArray isimli yeni bir dizide toplayın.(sakladığınız değişkenleri kullanın)
 
-const newArray = [deleted, deletedFirst, deleted.length, deletedFirst.length];
+const newArray = [deleted, deletedFirst, newLength, deletedFirst.length];
 
 // 9- myArray ve newArray dizilerini birleştirin ve yeni değişkenlere atayın. 2 yöntem.
 
@@ -292,7 +291,7 @@ console.log(myArray.includes("Veli"));
 
 // 11- myArray içersinide 4.elemandan itibaren patates var mı?
 
-let myArray2 = myArray.slice(4);
+let myArray2 = myArray.slice(3);
 console.log(myArray2.includes("Patates"));
 
 
@@ -309,13 +308,13 @@ console.log(tripleArr);
 //index, howmany, item1, ....., itemX
 
 tripleArr.splice(1,1);
-tripleArr.splice(1,0,"dsş",2);
+tripleArr.splice(1,0,"dsş",2); //tek satırda da yapabilirsin, splice(1,1,"dsş",2)
 console.log(tripleArr);
 
 // 15- son diziniz 4 elemanlı olmuş olmalı. Bu dizi üzerinde 1 eleman silin 1 eleman değiştirin ve bir eleman ekleyin ÖRN: [1, 2, 3, 4] => [1, 'x', 4, 'y']
 
 tripleArr.splice(1,1);
-[tripleArr[1], tripleArr[2]] = [tripleArr[2], tripleArr[1]];
+[tripleArr[1], tripleArr[2]] = [tripleArr[2], tripleArr[1]]; //splice ile de değiştirebilirsin
 tripleArr.push("yeni");
 console.log(tripleArr);
 
