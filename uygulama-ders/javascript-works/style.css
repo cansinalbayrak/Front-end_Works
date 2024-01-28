@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  nav {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #6943c1;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position:sticky ;
+    top: 0; 
+    
+  }
+ .links{
+    font-weight: normal;
+}
+  .my {
+    color: white;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+  }
+
+  nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    margin: 0 10px;
+  }
+
+  nav a:hover {
+    background-color:  -*++++++++++#7f5fc9;
+  }
+
+
+
+  .card {
+    width: 200px;
+    height: auto;
+    margin-bottom: 3px;
+    background-color: #e5d7f2;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: start;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  .card img {
+    width: 80%;
+    border-radius: 10%;
+    margin-top: 10px;
+    padding: 10px;
+    height: auto;
+  }
+
+  .card-content {
+    padding: 16px;
+  }
+
+  .card-title {
+    font-size: 18px;
+    color: #62259c;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+
+  .card-desc {
+    font-size: 14px;
+    color: #403f3f;
+    text-align: justify;
+  }
+
+  .card-container{
+    margin-top: 80px;
+    margin-bottom: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+  }
