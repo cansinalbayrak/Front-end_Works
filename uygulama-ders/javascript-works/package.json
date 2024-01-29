@@ -1,7 +1,8 @@
 {
   "name": "javascript-works",
   "version": "1.0.0",
-  "main": "fifth.js",
+  "description": "",
+  "main": "index.js",
   "source": "react/index.html",
   "scripts": {
     "dev": "parcel"
@@ -16,6 +17,5 @@
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
-  },
-  "description": ""
+  }
 }
