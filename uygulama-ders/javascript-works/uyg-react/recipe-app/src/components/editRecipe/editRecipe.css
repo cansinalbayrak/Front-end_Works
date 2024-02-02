@@ -1,0 +1,16 @@
+.edit-div{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border: 1px solid black;
+    width: 50%;
+    margin-top: 30px;
+    padding: 20px;
+}
+.edit-div label{
+    font-size: large;
+    font-style: italic;
+}
+.edit-div input, .edit-div  textarea{
+    font-size: 1.20rem;
+}

@@ -1,0 +1,90 @@
+{
+  "recipes": [
+    {
+      "id": "2",
+      "title": "Chicken Caesar Salad",
+      "description": "Crisp romaine lettuce tossed with traditional Caesar dressing, grilled chicken, and croutons.",
+      "image": "https://recipes.net/wp-content/uploads/2023/05/mimis-cafes-chicken-caesar-salad-recipe_9419222422c1859ac90db48175cf0b4e-300x300.jpeg"
+    },
+    {
+      "id": "3",
+      "title": "Beef Bourguignon",
+      "description": "A French stew made with beef braised in red wine and beef broth, flavored with carrots, onions, garlic, and a bouquet garni, and garnished with mushrooms and pearl onions.",
+      "image": "https://cookingorgeous.com/wp-content/uploads/2021/01/beef-bourguignon-1-300x300.jpg"
+    },
+    {
+      "id": "4",
+      "title": "Vegetable Stir Fry",
+      "description": "A quick and healthy mix of assorted vegetables stir-fried with soy sauce and sesame oil.",
+      "image": "https://www.forkinthekitchen.com/wp-content/uploads/2022/01/220113.veggie.stir_.fry-0308-300x300.jpg"
+    },
+    {
+      "id": "5",
+      "title": "Quiche Lorraine",
+      "description": "A savory pie from the Lorraine region of France with a pastry crust filled with eggs, cream, and smoked bacon.",
+      "image": "https://bakerbynature.com/wp-content/uploads/2016/11/untitled-20-of-140-1-300x300.jpg"
+    },
+    {
+      "id": 5397,
+      "title": "dsl",
+      "description": "cdsk",
+      "imageUrl": "cdskm"
+    },
+    {
+      "id": 1706777928338,
+      "title": "flekvm",
+      "description": "klmvwşesd",
+      "image": "kvkşls"
+    },
+    {
+      "id": "3796",
+      "title": "şlcd",
+      "description": "cdwö",
+      "image": "mşlcd"
+    },
+    {
+      "id": "a35e",
+      "title": "fvdşl",
+      "description": "newnew",
+      "image": "cdös"
+    },
+    {
+      "id": "d6cc",
+      "title": "odpl",
+      "description": "dklş",
+      "image": "dkmlş"
+    },
+    {
+      "id": "c77d",
+      "title": "dsşi",
+      "description": "cdsöşl",
+      "image": "cdsşl"
+    },
+    {
+      "id": "689e",
+      "title": "fdvfd",
+      "description": "df",
+      "image": "vfds"
+    },
+    {
+      "id": "4885",
+      "title": "vfd",
+      "description": "vfd",
+      "image": "vfd"
+    },
+    {
+      "id": "bb79",
+      "title": "fes",
+      "description": "fd",
+      "image": "cfes"
+    }
+  ],
+  "todos": [
+    {
+      "id": "1"
+    },
+    {
+      "id": "2"
+    }
+  ]
+}
